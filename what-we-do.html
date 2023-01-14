@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>What We Do</title>
+    <style>
+      body {
+         background-color: #e8e8e8;
+        font-family: 'Nunito', sans-serif;
+         padding: 20px;
+      }
+
+      .navbar {
+        background-color: #e8e8e8;
+      }
+
+      .card{
+          margin: 0px 10px 10px 10px;
+          margin-top: 15px;
+          /*background: rgb(236, 236, 236);*/
+          border: 1px solid white;
+          box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+          backdrop-filter: blur(6px);
+          border-radius: .7rem;
+              
+          transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+          cursor: pointer;
+          -webkit-backdrop-filter: blur(20px);
+          }
+
+    .card:hover{
+                 transform: scale(1.1); 
+                  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+                backdrop-filter: blur(10px);
+                border-radius: .7rem;
+                 transition: all ease .3s;
+              }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light text-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="ukclogo.png" class = "d-flex aligns-items-center justify-content-center"alt="UKC84M" width="55" height="45" style="padding-left: 10px;">
+        </a>
+        <span><a class="navbar-brand text-primary" href="index.html">UKC84M</a></span> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0" >
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <!-- <a class="dropdown-item text-secondary" href="mission-vision.html">Mission & Vision</a> 
+                <a class="dropdown-item text-secondary" href="history.html">History</a>-->
+
+                  <a class="dropdown-item text-secondary" data-bs-toggle="modal" data-bs-target="#Mission" href="#">Mission, Vision & Core Values</a>
+                  <a class="dropdown-item text-secondary" href="UKC-History.html">History of UKC</a>
+                  <a class="dropdown-item text-secondary" href="UKC-84M-History.html">History of UKC-84M</a>
+                  <a class="dropdown-item text-secondary" href="organizational-structure.html">Organizational Structure</a>
+              </ul>
+          </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="what-we-do.html">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="announcements.html">Announcements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="join-us.html">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="contact-us.html">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+                <!-- Modal Mission, Vision & Core Values-->
+                <div class="modal fade" id="Mission" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span><img src="ukclogo.png" class = "d-flex aligns-items-center justify-content-center"alt="UKC84M" width="65" height="55" style="padding-left: 10px;">
+                        </span><h4 class="modal-title" id="staticBackdropLabel" style="padding-left: 10px;">Misson, Vision & Core Values</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>  
+                      <div class="modal-body">
+                        <h5 class="text-primary">VISION</h5>
+                            <p>A safe & resilient community driven by equipped, committed and knowledgeable volunteers. </p>
+                            <p>As United Kabalikat Civicom become an epitome of excellence in volunteerism.</p>
+                            <hr>  
+                        <h5 class="text-primary">MISSION</h5>  
+                        <p>To create & facilitate volunteer involvement in community welfare and development specially in time of Disaster and Emergencies..</p>    
+                        <hr>
+                        <h5 class="text-primary">CORE VALUES</h5>  
+                        
+                        <p><b class = "text-success">UNDERSTANDING</b> before judgement. </p>
+                        <p><b class = "text-success">KINDNESS</b>  to those in need.</p>
+                        <p><b class = "text-success">COMMITMENT</b>  to learn, grow and develop. </p>
+                        <p><b class = "text-success">COMPASSION</b>  to help and serve humanity. </p>
+                        <p><b class = "text-success">COLLABORATION</b>  to attain the best output. </p>
+                        </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+    <br><br>
+    <div class="container-fluid">
+        <h1 class="text-center">What We Do</h1>
+        <br>
+        <div class="row d-flex aligns-items-center justify-content-center mx-auto" style="width: 65%;">
+                
+                <div class="col-md-3 card ">  
+                  <img src="activity1.jpg" class="card-img-top" style="padding-top: 12px;" alt="activity1">
+                  <div class="card-body ">
+                    <h5 class="card-title ">1st UKC-84M Orientation</h5>
+                    <p>1st orientation of United Kabalikat Civicom</p>
+                    <p><em>November 7, 2019 at Moncarlo Subd. Brgy. Ampid 1, San Mateo Rizal</em></p>
+                    <a href="activity1.html" class="btn btn-primary ">More details...</a>
+                    </div>
+                    </div>
+                   
+
+                    <div class="col-md-3 card">
+                    <img src="activity2.jpg" class="card-img-top" style="padding-top: 12px;" alt="activity2" >
+                    <div class="card-body ">
+                    <h5 class="card-title ">1st UKC-84M Chapter Meeting</h5>
+                    <p>1st Chapter Meeting.</p>
+                    <p><em>November 23, 2019 at Moncarlo Subdivision Barangay Ampid 1, San Mateo, Rizal</em></p>
+                    <a href="activity2.html" class="btn btn-primary ">More details...</a>
+                    </div>
+                    </div>
+
+                    <div class="col-md-3 card">
+                    <img src="activity3.jpg" class="card-img-top" style="padding-top: 12px;" alt="activity3" >
+                    <div class="card-body ">
+                    <h5 class="card-title ">1st Public General Membership Meeting</h5>
+                    <p>Public General Membership Meeting</p>
+                    <p><em>February 28, 2020 at Moncarlo Subdivision Multi Purpose Hall, Barangay Ampid 1, San Mateo, Rizal</em></p>
+                    <a href="activity3.html" class="btn btn-primary ">More details...</a>
+                    </div>
+                    </div> 
+
+
+    
+
+            </div>     
+                 
+                 
+            <hr><br><br>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2>Upcoming Activities</h2>
+                    <p>Here you can provide a list of upcoming activities, including the date, location, and a short description of each activity.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <h2>Recent Activities</h2>
+                    <p>Here you can provide a list of recent activities, including photos, stories, and videos of each activity.</p>
+                  </div>
+                </div>
+
+
+              </div>
+              
+      
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+ 
+  </body>
+</html>
